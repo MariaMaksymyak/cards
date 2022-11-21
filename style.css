@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+ .info_text{
+    font-size: 26px ;
+    line-height: 38px;
+    text-align: center;
+    color: #5f4d5d;
+    width: 747px;
+    margin: 130px auto 50px;
+ }
+ 
+ .info_card{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.card{
+    background: #CEB3CB;
+    transition: 0.5s;
+}
+.card__content{
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 25px;
+}
+.card__title{
+    font-size: 25px;
+}
+.card__link{
+    font-size: 17px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 0px 0px  #B08EAD, 10px 10px 0px 0px #bda0ba, 15px 15px 0px 0px #cbb1c8, 20px 20px 0px 0px #ddc6da, 25px 25px 0px 0px #f1dfef, 5px 5px 15px 5px rgba(0,0,0,0);  
+}
